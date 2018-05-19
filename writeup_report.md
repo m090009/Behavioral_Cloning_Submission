@@ -319,9 +319,10 @@ I trained the model on <span style="color:gray;">gray</span> images and got some
 
 I also trained the model to multivariant values steering angle as usual, and throttle. It gave a workable result, but it wasn't up to par with the single variable regression. Theres a saved model of the multivariant approach in the main directory if you want to check it out.
 
-### Final Data Count
+### Final Training Count
 
-After spliting the data, getting all cameras images, fliping them, and then applying random shadow augmentation we endup with `117,482` training images and `22596` validation images, which serve well in training a robust model.
+After spliting the data, getting all cameras images, fliping them, and then applying random shadow augmentation we endup with `117,482` training images and `22,596` validation images, which serve well in training a robust model. I ended up choosing the final model after the early stopping and not the model checkpoint of the best validation loss, both performed admirably but the one with the lowest validation loss but not the highest loss had this mishap 
+![mishap.jpg](./assets/mishap.jpg) which plagued the run for me. The losses were very close a `0.004` apart, so I had to choose the one that worked better in action and this is the only difference that I could find.
 
 ## Model Visualization
 
