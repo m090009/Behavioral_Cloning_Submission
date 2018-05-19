@@ -378,14 +378,14 @@ Now most of the images ignore the hills and other distraction and focus on the d
 I made 3 videos for each track with 3 different speeds `9mph`, `15mph`, and `20mph` to checkout the model robustness in different scenarios, all the links are included below. All the videos of the final model are located in the [`Videos`](./Videos/) directory.
 
 ## Track 1 Lake Track
-* [9 mph video](./runs/Final/track1_9mph.mp4)
-* [15 mph video](./runs/Final/track1_15mph.mp4)
-* [20 mph video](./runs/Final/track1_20mph.mp4)
+* [9 mph video](./Videos/track1_9mph.mp4)
+* [15 mph video](./Videos/track1_15mph.mp4)
+* [20 mph video](./Videos/track1_20mph.mp4)
 
 ## Track 2 Jungle Track
-* [9 mph video](./runs/Final/track2_9mph.mp4)
-* [15 mph video](./runs/Final/track2_15mph.mp4)
-* [20 mph video](./runs/Final/track2_20mph.mp4)
+* [9 mph video](./Videos/track2_9mph.mp4)
+* [15 mph video](./Videos/track2_15mph.mp4)
+* [20 mph video](./Videos/track2_20mph.mp4)
 
 # Additions and Exploration
 ----
